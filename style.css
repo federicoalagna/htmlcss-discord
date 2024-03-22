@@ -73,10 +73,8 @@ header {
 }
 
 .col-footer {
-  background-color: rgb(26, 231, 211);
   display: flex;
 
-  height: 40px;
   margin-top: 20px;
   margin-bottom: 0;
 
@@ -162,8 +160,6 @@ header {
 }
 
 .buttons {
-  background-color: pink;
-  height: 20px;
   justify-content: space-between;
 }
 
@@ -215,6 +211,9 @@ header {
 }
 .btn-blue {
   background-color: #255de971;
+}
+.btn-lightblue {
+  background-color: #94adeb;
 }
 .unstyled-list {
   list-style-type: none;
@@ -316,7 +315,7 @@ header {
 }
 
 .titolo4 {
-  color: #255ee9;
+  color: #94adeb;
   font-size: 21px;
   margin-top: 20px;
   font-weight: 800;
