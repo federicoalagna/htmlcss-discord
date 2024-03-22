@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  background-color: lightskyblue;
+  background-color: #255ee9;
 }
 .row {
   display: flex;
@@ -40,8 +40,6 @@ header {
 
 .col-50 {
   width: 40%;
-
-  background-color: rgb(215, 192, 17);
 }
 .col-25 {
   width: 15%;
@@ -49,7 +47,7 @@ header {
 
 .col-60 {
   width: 40%;
-  border: dotted;
+
   height: 180px;
   background-color: rgb(35, 116, 255);
   margin-top: 25px;
@@ -57,7 +55,7 @@ header {
 }
 .col-30 {
   width: 30%;
-  border: dotted;
+
   height: 180px;
   background-color: rgb(244, 149, 171);
   margin-top: 25px;
@@ -65,7 +63,7 @@ header {
 }
 .col-30-2 {
   width: 20%;
-  border: dotted;
+
   height: 220px;
   background-color: rgb(244, 149, 171);
   margin-top: 5px;
@@ -73,7 +71,7 @@ header {
 }
 .col-small {
   width: 10%;
-  border: dotted;
+
   height: 220px;
   background-color: rgb(49, 244, 205);
   margin-top: 5px;
@@ -95,19 +93,17 @@ header {
 
 .text-left {
   text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
 }
 .text-center {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
 }
 
 .text-right {
   text-align: right;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
+}
+
+.align-center {
+  align-items: center;
 }
 
 .blue {
@@ -170,8 +166,7 @@ header {
   width: 70%;
 }
 
-button {
-  border: dotted;
+.buttons {
   background-color: pink;
   height: 20px;
   justify-content: space-between;
@@ -202,19 +197,35 @@ button {
 }
 
 .btn {
-  padding: 10px;
+  padding: 8px;
   text-decoration: none;
-  color: white;
-  border-radius: 20px;
+  color: black;
+  border-radius: 13px;
+  border: none;
 }
 
+.btn-white {
+  background-color: white;
+}
 .unstyled-list {
   list-style-type: none;
 }
 .unstyled-list li {
   display: inline-block;
+  padding: 0px 5px;
+}
+.unstyled-list li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 900;
 }
 
 .py10 {
   padding: 10px;
+}
+
+.bg-jumbo {
+  background-image: url(../htmlcss-discord/img\ 3/jumbo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
