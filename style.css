@@ -106,6 +106,10 @@ header {
   align-items: center;
 }
 
+.align-left {
+  align-items: left;
+}
+
 .blue {
   background-color: rgb(33, 33, 122);
   height: 200px;
@@ -141,7 +145,6 @@ header {
 }
 
 .col-large {
-  background-color: rgb(230, 91, 218);
   display: flex;
   flex-wrap: wrap;
   height: 160px;
@@ -204,8 +207,19 @@ header {
   border: none;
 }
 
+.btn2 {
+  padding: 8px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-radius: 13px;
+  border: none;
+}
+
 .btn-white {
   background-color: white;
+}
+.btn-black {
+  background-color: rgb(22, 22, 22);
 }
 .unstyled-list {
   list-style-type: none;
@@ -224,8 +238,32 @@ header {
   padding: 10px;
 }
 
+.margin {
+  margin: 15px;
+}
 .bg-jumbo {
   background-image: url(../htmlcss-discord/img\ 3/jumbo.png);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 300px;
+}
+
+.titolo {
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+}
+
+.paragrafo {
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+}
+
+.margintop {
+  margin-top: 50px;
+}
+
+.margintop20 {
+  margin-top: 20px;
 }
