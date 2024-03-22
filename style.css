@@ -59,17 +59,16 @@ header {
 .col-30-2 {
   width: 20%;
 
-  height: 220px;
-  background-color: rgb(244, 149, 171);
-  margin-top: 5px;
+  margin-left: 35px;
+  margin-top: 35px;
   margin-bottom: 35px;
 }
 .col-small {
   width: 10%;
 
-  height: 220px;
-  background-color: rgb(49, 244, 205);
-  margin-top: 5px;
+  line-height: 1.5;
+  margin-left: 80px;
+  margin-top: 35px;
   margin-bottom: 35px;
 }
 
@@ -154,7 +153,6 @@ header {
 .col-XLarge {
   display: flex;
   flex-wrap: wrap;
-
   margin-top: 10px;
   margin-bottom: 10px;
   border: 1px;
@@ -221,14 +219,30 @@ header {
 .unstyled-list {
   list-style-type: none;
 }
+
 .unstyled-list li {
   display: inline-block;
   padding: 0px 5px;
 }
+
 .unstyled-list li a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 900;
+}
+.unstyled-list2 li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.unstyled-list2 {
+  list-style-type: none;
+}
+
+.unstyled-list2 li {
+  padding: 0px 5px;
+  list-style-type: none;
 }
 
 .py10 {
@@ -299,4 +313,34 @@ header {
   color: rgb(0, 0, 0);
   font-size: 21px;
   margin-top: 20px;
+}
+
+.titolo4 {
+  color: #255ee9;
+  font-size: 21px;
+  margin-top: 20px;
+  font-weight: 800;
+}
+
+.stars {
+}
+
+.ita {
+  width: 10px;
+  height: 10px;
+}
+
+span {
+  color: white;
+}
+
+.margintop-15 {
+  margin-top: 15px;
+}
+
+.fontsize {
+  font-weight: 200;
+}
+.vertical {
+  vertical-align: text-top;
 }
