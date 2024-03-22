@@ -192,7 +192,7 @@ header {
 }
 
 .bggrey {
-  background-color: rgb(173, 173, 173);
+  background-color: rgb(237, 237, 237);
 }
 
 .btn {
@@ -287,4 +287,8 @@ header {
 .sottotitolo {
   margin: 20px 0px;
   line-height: 1.5;
+}
+
+.item1 {
+  width: 95%;
 }
