@@ -23,7 +23,6 @@ header {
 .row {
   display: flex;
   flex-wrap: wrap;
-
   border: 1px;
   padding: 10px;
   justify-content: center;
@@ -153,10 +152,9 @@ header {
 }
 
 .col-XLarge {
-  background-color: rgb(34, 109, 4);
   display: flex;
   flex-wrap: wrap;
-  height: 360px;
+
   margin-top: 10px;
   margin-bottom: 10px;
   border: 1px;
@@ -216,6 +214,9 @@ header {
 }
 .btn-black {
   background-color: rgb(22, 22, 22);
+}
+.btn-blue {
+  background-color: #255de971;
 }
 .unstyled-list {
   list-style-type: none;
@@ -280,7 +281,7 @@ header {
 .titolo2 {
   font-weight: 900;
   color: rgb(0, 0, 0);
-  font-size: 45px;
+  font-size: 41px;
   margin-top: 20px;
 }
 
@@ -289,6 +290,13 @@ header {
   line-height: 1.5;
 }
 
-.item1 {
+.item {
   width: 95%;
+}
+
+.titolo3 {
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  font-size: 21px;
+  margin-top: 20px;
 }
